@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MissionEd | Team</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/age.js" language="javascript"></script>
+
+    <script>
+        // Data Picker Initialization
+        $(document).ready(function() {
+            // Data Picker Initialization
+            $('.datepicker').datepicker({
+                inline: true;
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <center>
+        <div class="container-fluid">
+            <br><br><br>
+            <h1 style="color: white;">Age calculator by Apoorv Gupta</h1>
+            <!------------------------Row-------------------------------------------------------------->
+            <ul class="team">
+                <li>
+                    <!-------------Flip Card----------------->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img class="profile" src="apoorv.jpeg">
+                                <div class="name">“IT'S BETTER TO CODE DAY & NIGHT RATHER THAN CALLING YOURSELF A NIGHT OWL OR MORNING LARK” </div>
+                                <div class="tag"> BY APOORV GUPTA</div>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="name">Code Split</div>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin"></i>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-------------Flip Card----------------->
+                </li>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div id="conatiner-fluid">
+                                <h1 style="color:white"> Calculate your age Here...</h1>
+                                <div id="birth_date_input"> <input type="date" id="birth_date"></div>
+                                <br/>
+                                <h2 style="color:red;" id="textcover"></h2>
+                                <br/>
+                                <button class="btn btn-dark" style="border-radius: 5px;" onclick="calcage()" id="button1"><h3 style="color: #9c2aec; background-color:black; border-radius: 5px;">Calculate</h5></button>
+
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+
+
+
+            </ul>
+
+            <!------------------------Row-------------------------------------------------------------->
+
+
+        </div>
+
+    </center>
+</body>
+
+</html>
